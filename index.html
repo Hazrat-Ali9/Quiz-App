@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div class="section" data-section="0">General Knowledge</div>
+      <div class="section" data-section="1">Science</div>
+      <div class="section" data-section="2">Mathematics</div>
+      <div class="section" data-section="3"> History</div>
+    </div>
+    <div id="question-container" style="display: none">
+      <p id="score">Score:0</p>
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-button">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
